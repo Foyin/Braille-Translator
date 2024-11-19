@@ -34,8 +34,8 @@ Braille (*/breɪl/ **BRAYL***) is a tactile writing system used by people who ar
 
 ## Examples
 - Launching your application with English or Braille:
-  - `node translator.rb Hello world`
-  - `node translator.rb .....OO.OO..O..O..O.O.O.O.O.O.O..OO........OOO.OO..OO.O.OOO.O.O.O.OO.O..`
+  - `node translator.js Hello world`
+  - `node translator.js .....OO.OO..O..O..O.O.O.O.O.O.O..OO........OOO.OO..OO.O.OOO.O.O.O.OO.O..`
 ---
 - Input: `Hello world`
 - Output: `.....OO.OO..O..O..O.O.O.O.O.O.O..OO........OOO.OO..OO.O.OOO.O.O.O.OO.O..`
