@@ -1,16 +1,6 @@
 
 const process = require('process')
-/*
-const readline = require('readline');
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-rl.question(``, str => {
-    console.log(isBrailleOrEnglish(str));
-  rl.close();
-});
-*/
+
 const glossary = {
     "A": "O.....", // A
     "B": "O.O...", // B
