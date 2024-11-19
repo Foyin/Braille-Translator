@@ -118,7 +118,7 @@ function isBrailleOrEnglish(str){
 
 function getKeyByValue(object, value) {
     return Object.keys(object).filter(key => object[key] === value);
-  }
+}
 
 function engToBraille(word){
     var translation = "";
