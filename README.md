@@ -1,13 +1,13 @@
 ---
 
 ## Braille Translator
-In this code you create a terminal / command-line application that can translate Braille to English and vice versa. 
+This is an application that can translate Braille to English and vice versa. 
 
-The string to translate will be passed into your application as an argument at runtime. Your application must be smart enough to determine if the string given to it is either Braille or English and automatically convert it to the appropriate opposite. 
+The string to translate will be passed into the application as an argument at runtime. The application is smart enough to determine if the string given to it is either Braille or English and automatically convert it to the appropriate opposite. 
 
-For the purposes of this challenge Braille must be displayed as `O` and `.` where `O` represents a raised dot. You must include the entire English alphabet, the ability to `capitalize` letters, add `spaces`, and the numbers `0` through `9` as well. 
+For simplicity, Braille is displayed as `O` and `.` where `O` represents a raised dot. It includes the entire English alphabet, the ability to `capitalize` letters, add `spaces`, and the numbers `0` through `9` as well. 
 
-After conversion, output the translated string--and nothing else--to the terminal. 
+After conversion, the output to the terminal is the translated string--and nothing else. 
 
 ## What is Braille?
 Braille (*/breɪl/ **BRAYL***) is a tactile writing system used by people who are visually impaired. Braille characters are formed using a combination of six raised dots arranged in a 3 × 2 matrix, called the braille cell. The number and arrangement of these dots distinguishes one character from another. ([via Wikipedia](https://en.wikipedia.org/wiki/Braille))
@@ -21,11 +21,11 @@ Braille (*/breɪl/ **BRAYL***) is a tactile writing system used by people who ar
 
 ## Technical Requirements
 - Translator
-  - Given arguments passed into the program at runtime, determine if the given string should be translated to English or Braille.
+  - Given arguments passed into the program at runtime, the application determines if the given string should be translated to English or Braille.
   - For Braille, each character is stored as a series of `O` (the letter O) or `.` (a period).
-  - Store Braille symbols as a 6 character string reading left to right, line by line, starting at the top left. See examples below.
-  - When a Braille `capital follows` symbol is read, assume only the next symbol should be capitalized. 
-  - When a Braille `number follows` symbol is read, assume all following symbols are numbers until the next `space` symbol.
+  - Braille symbols are stored as a 6 character string reading left to right, line by line, starting at the top left. See examples below.
+  - When a Braille `capital follows` symbol is read, the application assumes only the next symbol should be capitalized. 
+  - When a Braille `number follows` symbol is read, the application assumes all following symbols are numbers until the next `space` symbol.
 - Braille Alphabet
   - Letters `a` through `z`
     - The ability to capitalize letters
