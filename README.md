@@ -19,7 +19,7 @@ Braille (*/breɪl/ **BRAYL***) is a tactile writing system used by people who ar
   <em style='font-size:xx-small;'>Black dots represent raised areas</em>
 </p>
 
-## Technical Requirements
+## How It Works
 - Translator
   - Given arguments passed into the program at runtime, the application determines if the given string should be translated to English or Braille.
   - For Braille, each character is stored as a series of `O` (the letter O) or `.` (a period).
