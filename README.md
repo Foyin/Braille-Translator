@@ -33,7 +33,7 @@ Braille (*/breɪl/ **BRAYL***) is a tactile writing system used by people who ar
   - The ability to include `spaces` ie: multiple words
 
 ## Examples
-- Launching your application with English or Braille:
+- Launching the application with English or Braille:
   - `node translator.js Hello world`
   - `node translator.js .....OO.OO..O..O..O.O.O.O.O.O.O..OO........OOO.OO..OO.O.OOO.O.O.O.OO.O..`
 ---
